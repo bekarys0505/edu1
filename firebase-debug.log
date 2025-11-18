@@ -1,58 +1,196 @@
-[debug] [2025-11-17T21:31:14.396Z] ----------------------------------------------------------------------
-[debug] [2025-11-17T21:31:14.399Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Админ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2025-11-17T21:31:14.399Z] CLI Version:   14.25.0
-[debug] [2025-11-17T21:31:14.399Z] Platform:      win32
-[debug] [2025-11-17T21:31:14.399Z] Node Version:  v24.11.1
-[debug] [2025-11-17T21:31:14.399Z] Time:          Tue Nov 18 2025 02:31:14 GMT+0500 (Казахстан)
-[debug] [2025-11-17T21:31:14.399Z] ----------------------------------------------------------------------
+[debug] [2025-11-17T21:55:20.897Z] ----------------------------------------------------------------------
+[debug] [2025-11-17T21:55:20.900Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Админ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-11-17T21:55:20.901Z] CLI Version:   14.25.0
+[debug] [2025-11-17T21:55:20.901Z] Platform:      win32
+[debug] [2025-11-17T21:55:20.901Z] Node Version:  v24.11.1
+[debug] [2025-11-17T21:55:20.901Z] Time:          Tue Nov 18 2025 02:55:20 GMT+0500 (Казахстан)
+[debug] [2025-11-17T21:55:20.901Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-11-17T21:31:14.571Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-11-17T21:31:14.571Z] > authorizing via signed-in user (mov1607182@gmail.com)
-[debug] [2025-11-17T21:31:14.571Z] [iam] checking project prob1-c8abe for permissions ["firebase.projects.get"]
-[debug] [2025-11-17T21:31:14.572Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:14.572Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:14.573Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions [none]
-[debug] [2025-11-17T21:31:14.573Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions x-goog-quota-user=projects/prob1-c8abe
-[debug] [2025-11-17T21:31:14.573Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
-[debug] [2025-11-17T21:31:15.700Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions 200
-[debug] [2025-11-17T21:31:15.700Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
-[debug] [2025-11-17T21:31:15.701Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:15.701Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:15.701Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe [none]
-[debug] [2025-11-17T21:31:16.007Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe 200
-[debug] [2025-11-17T21:31:16.007Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe {"projectNumber":"346549546310","projectId":"prob1-c8abe","lifecycleState":"ACTIVE","name":"Prob1","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T19:02:58.266849Z"}
+[debug] [2025-11-17T21:55:21.114Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-17T21:55:21.114Z] > authorizing via signed-in user (mov1607182@gmail.com)
+[debug] [2025-11-17T21:55:21.114Z] [iam] checking project prob1-c8abe for permissions ["firebase.projects.get"]
+[debug] [2025-11-17T21:55:21.115Z] Checked if tokens are valid: false, expires at: 1763417413347
+[debug] [2025-11-17T21:55:21.115Z] Checked if tokens are valid: false, expires at: 1763417413347
+[debug] [2025-11-17T21:55:21.116Z] > refreshing access token with scopes: []
+[debug] [2025-11-17T21:55:21.117Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-17T21:55:21.117Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-17T21:55:21.473Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-17T21:55:21.473Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-17T21:55:21.478Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions [none]
+[debug] [2025-11-17T21:55:21.478Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions x-goog-quota-user=projects/prob1-c8abe
+[debug] [2025-11-17T21:55:21.478Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T21:55:21.923Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions 200
+[debug] [2025-11-17T21:55:21.923Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T21:55:21.924Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:21.924Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:21.924Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T21:55:22.521Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe 200
+[debug] [2025-11-17T21:55:22.521Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe {"projectNumber":"346549546310","projectId":"prob1-c8abe","lifecycleState":"ACTIVE","name":"Prob1","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T19:02:58.266849Z"}
 [info] 
 [info] === Serving from 'C:\Users\Админ\OneDrive\Desktop\eduplarform'...
 [info] 
-[debug] [2025-11-17T21:31:16.010Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:16.010Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:16.010Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 
-[debug] [2025-11-17T21:31:16.601Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 200
-[debug] [2025-11-17T21:31:16.601Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites {"sites":[{"name":"projects/prob1-c8abe/sites/prob1-c8abe","defaultUrl":"https://prob1-c8abe.web.app","appId":"1:346549546310:web:14599cebcc1e343c918947","type":"DEFAULT_SITE"}]}
-[debug] [2025-11-17T21:31:16.601Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:16.601Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:16.601Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config [none]
-[debug] [2025-11-17T21:31:17.525Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config 200
-[debug] [2025-11-17T21:31:17.525Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config {"projectId":"prob1-c8abe","appId":"1:346549546310:web:14599cebcc1e343c918947","storageBucket":"prob1-c8abe.firebasestorage.app","apiKey":"AIzaSyBvWDhmgbbGStO5zG6pEsdiWWvAC3HKvvM","authDomain":"prob1-c8abe.firebaseapp.com","messagingSenderId":"346549546310","measurementId":"G-N40VHC08G5","projectNumber":"346549546310","version":"2"}
-[debug] [2025-11-17T21:31:17.529Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:17.529Z] Checked if tokens are valid: true, expires at: 1763417413347
-[debug] [2025-11-17T21:31:17.529Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe [none]
-[debug] [2025-11-17T21:31:17.805Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe 200
-[debug] [2025-11-17T21:31:17.805Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe {"projectId":"prob1-c8abe","projectNumber":"346549546310","displayName":"Prob1","name":"projects/prob1-c8abe","resources":{"hostingSite":"prob1-c8abe"},"state":"ACTIVE","etag":"1_b8b4752b-459c-4d6e-a70f-cc0d52993c9f"}
+[debug] [2025-11-17T21:55:22.523Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:22.523Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:22.523Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 
+[debug] [2025-11-17T21:55:23.709Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 200
+[debug] [2025-11-17T21:55:23.709Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites {"sites":[{"name":"projects/prob1-c8abe/sites/prob1-c8abe","defaultUrl":"https://prob1-c8abe.web.app","appId":"1:346549546310:web:14599cebcc1e343c918947","type":"DEFAULT_SITE"}]}
+[debug] [2025-11-17T21:55:23.709Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:23.709Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:23.709Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config [none]
+[debug] [2025-11-17T21:55:24.521Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config 200
+[debug] [2025-11-17T21:55:24.521Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config {"projectId":"prob1-c8abe","appId":"1:346549546310:web:14599cebcc1e343c918947","storageBucket":"prob1-c8abe.firebasestorage.app","apiKey":"AIzaSyBvWDhmgbbGStO5zG6pEsdiWWvAC3HKvvM","authDomain":"prob1-c8abe.firebaseapp.com","messagingSenderId":"346549546310","measurementId":"G-N40VHC08G5","projectNumber":"346549546310","version":"2"}
+[debug] [2025-11-17T21:55:24.524Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:24.524Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T21:55:24.525Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T21:55:24.833Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe 200
+[debug] [2025-11-17T21:55:24.833Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe {"projectId":"prob1-c8abe","projectNumber":"346549546310","displayName":"Prob1","name":"projects/prob1-c8abe","resources":{"hostingSite":"prob1-c8abe"},"state":"ACTIVE","etag":"1_b8b4752b-459c-4d6e-a70f-cc0d52993c9f"}
 [info] i  hosting[prob1-c8abe]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
 [info] +  hosting[prob1-c8abe]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:32:01 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:32:01 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:32:01 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:32:01 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:32:01 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:32:01 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:32:07 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:32:07 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:32:24 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:32:24 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:32:24 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:32:24 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:32:24 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:32:24 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:34:00 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:34:00 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:34:00 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:34:00 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:34:00 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:34:00 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:34:14 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:34:14 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:36:02 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:36:02 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:36:02 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:36:02 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:36:02 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:36:02 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
-[info] i  hosting: ::1 - - [17/Nov/2025:21:36:02 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:36:02 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:21:55:33 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:55:33 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:21:55:33 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:55:33 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:21:55:33 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:21:55:33 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:02:42 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:02:42 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:02:42 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:02:42 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:02:42 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:02:42 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[debug] [2025-11-17T22:09:00.457Z] ----------------------------------------------------------------------
+[debug] [2025-11-17T22:09:00.459Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Админ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-11-17T22:09:00.460Z] CLI Version:   14.25.0
+[debug] [2025-11-17T22:09:00.460Z] Platform:      win32
+[debug] [2025-11-17T22:09:00.460Z] Node Version:  v24.11.1
+[debug] [2025-11-17T22:09:00.460Z] Time:          Tue Nov 18 2025 03:09:00 GMT+0500 (Казахстан)
+[debug] [2025-11-17T22:09:00.460Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-17T22:09:00.605Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-17T22:09:00.606Z] > authorizing via signed-in user (mov1607182@gmail.com)
+[debug] [2025-11-17T22:09:00.606Z] [iam] checking project prob1-c8abe for permissions ["firebase.projects.get"]
+[debug] [2025-11-17T22:09:00.607Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:00.607Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:00.608Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions [none]
+[debug] [2025-11-17T22:09:00.608Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions x-goog-quota-user=projects/prob1-c8abe
+[debug] [2025-11-17T22:09:00.608Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T22:09:01.671Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions 200
+[debug] [2025-11-17T22:09:01.671Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T22:09:01.671Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:01.672Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:01.672Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T22:09:01.950Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe 200
+[debug] [2025-11-17T22:09:01.950Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe {"projectNumber":"346549546310","projectId":"prob1-c8abe","lifecycleState":"ACTIVE","name":"Prob1","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T19:02:58.266849Z"}
+[info] 
+[info] === Serving from 'C:\Users\Админ\OneDrive\Desktop\eduplarform'...
+[info] 
+[debug] [2025-11-17T22:09:01.952Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:01.953Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:01.953Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 
+[debug] [2025-11-17T22:09:03.113Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 200
+[debug] [2025-11-17T22:09:03.113Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites {"sites":[{"name":"projects/prob1-c8abe/sites/prob1-c8abe","defaultUrl":"https://prob1-c8abe.web.app","appId":"1:346549546310:web:14599cebcc1e343c918947","type":"DEFAULT_SITE"}]}
+[debug] [2025-11-17T22:09:03.113Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:03.113Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:03.113Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config [none]
+[debug] [2025-11-17T22:09:03.965Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config 200
+[debug] [2025-11-17T22:09:03.965Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config {"projectId":"prob1-c8abe","appId":"1:346549546310:web:14599cebcc1e343c918947","storageBucket":"prob1-c8abe.firebasestorage.app","apiKey":"AIzaSyBvWDhmgbbGStO5zG6pEsdiWWvAC3HKvvM","authDomain":"prob1-c8abe.firebaseapp.com","messagingSenderId":"346549546310","measurementId":"G-N40VHC08G5","projectNumber":"346549546310","version":"2"}
+[debug] [2025-11-17T22:09:03.968Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:03.968Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:09:03.968Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T22:09:04.296Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe 200
+[debug] [2025-11-17T22:09:04.296Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe {"projectId":"prob1-c8abe","projectNumber":"346549546310","displayName":"Prob1","name":"projects/prob1-c8abe","resources":{"hostingSite":"prob1-c8abe"},"state":"ACTIVE","etag":"1_b8b4752b-459c-4d6e-a70f-cc0d52993c9f"}
+[info] i  hosting[prob1-c8abe]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[prob1-c8abe]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:09:11 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:09:11 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:09:11 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:09:11 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:09:11 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:09:11 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:09:41 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:09:41 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[debug] [2025-11-17T22:18:07.351Z] ----------------------------------------------------------------------
+[debug] [2025-11-17T22:18:07.354Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Админ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-11-17T22:18:07.354Z] CLI Version:   14.25.0
+[debug] [2025-11-17T22:18:07.354Z] Platform:      win32
+[debug] [2025-11-17T22:18:07.354Z] Node Version:  v24.11.1
+[debug] [2025-11-17T22:18:07.354Z] Time:          Tue Nov 18 2025 03:18:07 GMT+0500 (Казахстан)
+[debug] [2025-11-17T22:18:07.354Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-17T22:18:07.503Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-17T22:18:07.503Z] > authorizing via signed-in user (mov1607182@gmail.com)
+[debug] [2025-11-17T22:18:07.503Z] [iam] checking project prob1-c8abe for permissions ["firebase.projects.get"]
+[debug] [2025-11-17T22:18:07.504Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:07.504Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:07.505Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions [none]
+[debug] [2025-11-17T22:18:07.505Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions x-goog-quota-user=projects/prob1-c8abe
+[debug] [2025-11-17T22:18:07.505Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T22:18:08.612Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions 200
+[debug] [2025-11-17T22:18:08.612Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T22:18:08.613Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:08.613Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:08.613Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T22:18:08.904Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe 200
+[debug] [2025-11-17T22:18:08.904Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe {"projectNumber":"346549546310","projectId":"prob1-c8abe","lifecycleState":"ACTIVE","name":"Prob1","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T19:02:58.266849Z"}
+[info] 
+[info] === Serving from 'C:\Users\Админ\OneDrive\Desktop\eduplarform'...
+[info] 
+[debug] [2025-11-17T22:18:08.906Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:08.906Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:08.906Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 
+[debug] [2025-11-17T22:18:10.121Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 200
+[debug] [2025-11-17T22:18:10.121Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites {"sites":[{"name":"projects/prob1-c8abe/sites/prob1-c8abe","defaultUrl":"https://prob1-c8abe.web.app","appId":"1:346549546310:web:14599cebcc1e343c918947","type":"DEFAULT_SITE"}]}
+[debug] [2025-11-17T22:18:10.121Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:10.121Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:10.121Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config [none]
+[debug] [2025-11-17T22:18:10.990Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config 200
+[debug] [2025-11-17T22:18:10.991Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config {"projectId":"prob1-c8abe","appId":"1:346549546310:web:14599cebcc1e343c918947","storageBucket":"prob1-c8abe.firebasestorage.app","apiKey":"AIzaSyBvWDhmgbbGStO5zG6pEsdiWWvAC3HKvvM","authDomain":"prob1-c8abe.firebaseapp.com","messagingSenderId":"346549546310","measurementId":"G-N40VHC08G5","projectNumber":"346549546310","version":"2"}
+[debug] [2025-11-17T22:18:10.993Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:10.993Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:18:10.994Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T22:18:11.303Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe 200
+[debug] [2025-11-17T22:18:11.303Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe {"projectId":"prob1-c8abe","projectNumber":"346549546310","displayName":"Prob1","name":"projects/prob1-c8abe","resources":{"hostingSite":"prob1-c8abe"},"state":"ACTIVE","etag":"1_b8b4752b-459c-4d6e-a70f-cc0d52993c9f"}
+[info] i  hosting[prob1-c8abe]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[prob1-c8abe]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:18:21 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:18:21 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:18:21 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:18:21 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:18:21 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:18:21 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:18:33 +0000] "GET /style.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:18:33 +0000] \"GET /style.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:18:33 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:18:33 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[debug] [2025-11-17T22:38:52.734Z] ----------------------------------------------------------------------
+[debug] [2025-11-17T22:38:52.736Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Админ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-11-17T22:38:52.737Z] CLI Version:   14.25.0
+[debug] [2025-11-17T22:38:52.737Z] Platform:      win32
+[debug] [2025-11-17T22:38:52.737Z] Node Version:  v24.11.1
+[debug] [2025-11-17T22:38:52.737Z] Time:          Tue Nov 18 2025 03:38:52 GMT+0500 (Казахстан)
+[debug] [2025-11-17T22:38:52.737Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-17T22:38:52.886Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-17T22:38:52.886Z] > authorizing via signed-in user (mov1607182@gmail.com)
+[debug] [2025-11-17T22:38:52.886Z] [iam] checking project prob1-c8abe for permissions ["firebase.projects.get"]
+[debug] [2025-11-17T22:38:52.887Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:52.887Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:52.888Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions [none]
+[debug] [2025-11-17T22:38:52.888Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions x-goog-quota-user=projects/prob1-c8abe
+[debug] [2025-11-17T22:38:52.888Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T22:38:54.011Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions 200
+[debug] [2025-11-17T22:38:54.011Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-11-17T22:38:54.012Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:54.012Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:54.012Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T22:38:54.308Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe 200
+[debug] [2025-11-17T22:38:54.308Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/prob1-c8abe {"projectNumber":"346549546310","projectId":"prob1-c8abe","lifecycleState":"ACTIVE","name":"Prob1","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-17T19:02:58.266849Z"}
+[info] 
+[info] === Serving from 'C:\Users\Админ\OneDrive\Desktop\eduplarform'...
+[info] 
+[debug] [2025-11-17T22:38:54.310Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:54.310Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:54.310Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 
+[debug] [2025-11-17T22:38:55.516Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites 200
+[debug] [2025-11-17T22:38:55.516Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prob1-c8abe/sites {"sites":[{"name":"projects/prob1-c8abe/sites/prob1-c8abe","defaultUrl":"https://prob1-c8abe.web.app","appId":"1:346549546310:web:14599cebcc1e343c918947","type":"DEFAULT_SITE"}]}
+[debug] [2025-11-17T22:38:55.516Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:55.516Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:55.516Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config [none]
+[debug] [2025-11-17T22:38:56.411Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config 200
+[debug] [2025-11-17T22:38:56.411Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe/webApps/1:346549546310:web:14599cebcc1e343c918947/config {"projectId":"prob1-c8abe","appId":"1:346549546310:web:14599cebcc1e343c918947","storageBucket":"prob1-c8abe.firebasestorage.app","apiKey":"AIzaSyBvWDhmgbbGStO5zG6pEsdiWWvAC3HKvvM","authDomain":"prob1-c8abe.firebaseapp.com","messagingSenderId":"346549546310","measurementId":"G-N40VHC08G5","projectNumber":"346549546310","version":"2"}
+[debug] [2025-11-17T22:38:56.415Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:56.415Z] Checked if tokens are valid: true, expires at: 1763420120473
+[debug] [2025-11-17T22:38:56.415Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe [none]
+[debug] [2025-11-17T22:38:56.726Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe 200
+[debug] [2025-11-17T22:38:56.726Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prob1-c8abe {"projectId":"prob1-c8abe","projectNumber":"346549546310","displayName":"Prob1","name":"projects/prob1-c8abe","resources":{"hostingSite":"prob1-c8abe"},"state":"ACTIVE","etag":"1_b8b4752b-459c-4d6e-a70f-cc0d52993c9f"}
+[info] i  hosting[prob1-c8abe]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[prob1-c8abe]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:39:06 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:39:06 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:39:07 +0000] "GET /src/styles.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:39:07 +0000] \"GET /src/styles.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:39:07 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:39:07 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2025:22:39:41 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2025:22:39:41 +0000] \"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\" 404 187 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36\""}}
