@@ -1,0 +1,48 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // users
+    match /users/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow create: if request.auth != null && request.auth.uid == userId;
+      allow update: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // courses read for all
+    match /courses/{courseId} {
+      allow read: if true;
+
+      // admin only for course
+      allow create, update, delete: if request.auth != null 
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+
+      // lessons
+      match /lessons/{lessonId} {
+        allow read: if true;
+        allow create, update, delete: if request.auth != null 
+          && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+      }
+
+      // quizzes
+      match /quizzes/{quizId} {
+        allow read: if true;
+        allow create, update, delete: if request.auth != null 
+          && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+      }
+
+      // comments
+      match /comments/{commentId} {
+        allow read: if true;
+        allow create: if request.auth != null;
+        allow delete: if request.auth != null 
+          && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+      }
+    }
+
+    // public read
+    match /{document=**} {
+      allow read: if true;
+    }
+  }
+}
